@@ -3,11 +3,10 @@ import time
 import datetime
 from datetime import datetime
 import asyncio
+from secrets import TOKEN
 
 import discord
 import startvote
-
-TOKEN = 'ODAyNzc3Mjk0NzQ1MjM5NTYy.YA0KnQ.uc5IpuQof2P2_ut997g4DlTSoOM'
 
 client = discord.Client()
 
