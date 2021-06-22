@@ -67,6 +67,7 @@ async def startVote(content, channel):
             if(description != "" and description != " "):
                 embed.add_field(name='Description', value=description, inline=False)
             embed.add_field(name='REJECTED', value="\u200b", inline=True)
+        await newMessage.delete()
 
         await channel.send(embed=embed)
 
